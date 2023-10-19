@@ -1,0 +1,23 @@
+[regex]
+
+# Add regular expressions to detect sensitive information.
+# For example, to detect API keys and passwords:
+files = [
+    'api_key',
+    'password',
+]
+
+[rules]
+
+# You can define rules to include or exclude files or paths.
+# Exclude a specific file:
+#exclude = ['path/to/excluded-file.txt']
+
+# Exclude files by regular expressions:
+#exclude = ['path/to/excluded-directory/.*']
+
+# Include a specific file:
+#include = ['path/to/included-file.txt']
+
+# Include files by regular expressions:
+#include = ['path/to/included-directory/.*']
